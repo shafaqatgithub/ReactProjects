@@ -27,6 +27,7 @@ const Child = (props) => {
           </span>
           <h2 className="text-xl font-bold text-white mb-2 group-hover:text-gray-300 transition-colors duration-200">
             {props.heading || "C++"}
+            {/* C++ is default value */}
           </h2>
         </div>
 
