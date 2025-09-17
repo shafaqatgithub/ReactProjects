@@ -27,7 +27,7 @@ function App() {
     <div
       className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
       style={{
-        backgroundImage: `url('https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/The-10-Tech-Trends-That-Will-Transform-Our-World/960x0.jpg?height=399&width=711&fit=bounds')`,
+        backgroundImage: `url('https://imageio.forbes.com/specials-images/imageserve/61d52d4e3a76ed81ac034ea8/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds')`,
       }}
     >
       <div className="w-full">
@@ -43,7 +43,7 @@ function App() {
                 label="From"
                 amount={amount}
                 currencyOptions={options}
-                onCurrencyChange={(currency) => setAmount(amount)}
+                onCurrencyChange={(currency) => setFrom(currency)}
                 selectCurrency={from}
                 onAmountChange={(amount) => setAmount(amount)}
               />
